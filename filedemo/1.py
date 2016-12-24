@@ -26,3 +26,4 @@ with open('./test.txt', 'r') as f:
 # 'rb'：二进制读文件
 # 'w'：写文件
 # 'wb'：二进制写文件
+
