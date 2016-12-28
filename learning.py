@@ -29,7 +29,7 @@ from wsgiref.simple_server import make_server
 
 EXEC = sys.executable
 PORT = 39093
-HOST = 'local.liaoxuefeng.com:%d' % PORT
+HOST = 'localhost:%d' % PORT
 TEMP = tempfile.mkdtemp(suffix='_py', prefix='learn_python_')
 INDEX = 0
 
