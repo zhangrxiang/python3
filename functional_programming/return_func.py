@@ -42,6 +42,7 @@ print(f1())
 print(f2())
 print(f3())
 
+# 返回函数不要引用任何循环变量，或者后续会发生变化的变量。
 def count2():
     fs = []
     for i in range(1, 4):
@@ -71,3 +72,23 @@ f1, f2, f3 = count3()
 print(f1())
 print(f2())
 print(f3())
+
+L = []
+g = lambda x:[1].append(x)
+L.append(1)
+L.append(2)
+L.append(5)
+print(L)
+
+
+
+
+gg = lambda x : x*x
+print(gg(2))
+def ll():
+    return [1, 2, 5]
+
+xx1, xx2, xx3 = ll()
+print(xx1)
+print(xx2)
+print(xx3)
