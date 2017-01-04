@@ -1,7 +1,7 @@
 from types import MethodType
 
 
-class Student():
+class Student:
     def __init__(self, name):
         self.name = name
     pass
@@ -20,3 +20,12 @@ s.setAge = MethodType(setAge, s)
 s.setAge(100)
 print(s.name)
 print(s.age)
+
+
+class Man:
+    __slots__ = ('name', 'age')
+
+m = Man
+m.name = 'zing'
+m.age = 21
+m.score = 11
