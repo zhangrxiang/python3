@@ -6,7 +6,6 @@ import os
 import time
 from multiprocessing.pool import Pool
 
-
 def run_proc(name):
     print('Run child process %s (%s)...' % (name, os.getpid()))
 

@@ -2,7 +2,7 @@ import sys
 
 from PIL import Image
 
-from mymoudle.mymath import myabs, mysum
+from mymodule.mymath import myabs, mysum
 
 def test():
     args = sys.argv
