@@ -1,12 +1,12 @@
-try:
-    f = open('test1.txt', 'r')#只读模式打开test.txt文件
-    print(f.read())#读取文件的所有内容
-    f.close()#关闭文件
-except:
-    print(IOError)
-    print("no this file")
-finally:
-    print("finally")
+# try:
+#     f = open('test1.txt', 'r')#只读模式打开test.txt文件
+#     print(f.read())#读取文件的所有内容
+#     f.close()#关闭文件
+# except:
+#     print(IOError)
+#     print("no this file")
+# finally:
+#     print("finally")
 
 
 with open('./test.txt', 'r') as f:
