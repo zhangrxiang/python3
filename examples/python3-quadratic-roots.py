@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 # Created by PyCharm.
 # User: zhangrxiang
 # Date: 2017/1/10
